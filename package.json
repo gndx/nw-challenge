@@ -1,0 +1,31 @@
+{
+  "name": "nw-challenge",
+  "version": "1.0.0",
+  "description": "nw-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/nw-challenge.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/nw-challenge/issues"
+  },
+  "homepage": "https://github.com/gndx/nw-challenge#readme",
+  "devDependencies": {
+    "jest": "29.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "<rootDir>/(node_modules)/"
+    ]
+  }
+}
